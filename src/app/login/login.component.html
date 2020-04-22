@@ -1,0 +1,25 @@
+
+<div id="unk" style="margin-left: 500px; margin-top: 200px;">
+<h2>LOGIN</h2>
+
+    <div class="col-md-7">
+        <label>Username:</label>
+        <input type="text" [(ngModel)]="username" placeholder="Username" class="form-control">
+       
+       
+    </div>
+    <div class="col-md-7">
+        <label>Password:</label>
+        <input type="password" [(ngModel)]="password" placeholder="Password" class="form-control">
+      
+       
+    </div>
+    <div  style="margin-left: 20px; margin-top: 10px;">
+        <button  class="btn btn-primary" (click)="onSubmit()">       
+            Login
+        </button>
+        <button style="margin-left: 20px;" class="btn btn-danger" routerLink="/Form">Register</button>
+    </div>
+
+    <b>Note :<br> Username : naveen <br> Password :12345</b>
+</div>
